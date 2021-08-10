@@ -41,7 +41,7 @@ client.on('messageCreate', async (message) => {
     }
 
     //Handler pt2
-    let cmd = client.commands.find((c) => c.name === command || c.alias && c.alias.includes(command))
+   let cmd = client.commands.find((c) => c.name === command || c.alias && c.alias.includes(command))
     if(cmd){
         cmd.execute(client, message, args)
     }

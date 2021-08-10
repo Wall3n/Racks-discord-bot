@@ -9,11 +9,11 @@
   },
   "author": "Wall3n",
   "license": "MIT",
-  "dependencies": {
-    "discord.js": "^13.0.1"
-  },
   "devDependencies": {
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "discord.js": "^13.0.1"
   }
 }
